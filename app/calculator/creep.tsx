@@ -24,19 +24,19 @@ function Creep() {
                     className=" bg-slate-200 rounded-3xl m-8 p-2"
                     type="number"
                     // value={es}
-                    onChange={(e) => { setEs(e.target.value) }}
+                    onChange={(e) => { setEs(Number(Number(e.target.value))) }}
                     placeholder="Enter the value of modulus of elasticity of steel" ></input>
                 <input
                     className=" bg-slate-200 rounded-3xl m-8 p-2"
                     type="number"
                     // value={ec}
-                    onChange={(e) => { setEcc(e.target.value) }}
+                    onChange={(e) => { setEcc(Number(Number(e.target.value))) }}
                     placeholder="Enter the value of ultimate creep strain"></input>
                 <input
                     className=" bg-slate-200 rounded-3xl m-8 p-2"
                     type="number"
                     // value={fc}
-                    onChange={(e) => { setFc(e.target.value) }}
+                    onChange={(e) => { setFc(Number(Number(e.target.value))) }}
                     placeholder="Enter the compressive stress in concrete"></input>
             </div>
             <button onClick={calculate} className=" bg-zinc-500 rounded-3xl p-4 font-semibold text-white">Calculate Loss</button>

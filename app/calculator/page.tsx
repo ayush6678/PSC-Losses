@@ -12,9 +12,6 @@ function Calculator() {
     const [loss, setLoss] = useState("");
     const [calc, setCalc] = useState(<></>);
 
-    const handleOptionChange = (event) => {
-        setLoss(event.target.value);
-    };
 
     useEffect(() => {
         if (loss === "as") {
@@ -47,7 +44,8 @@ function Calculator() {
                 <form className=" max-w-3xl mx-auto p-8">
                     <select
                         value={loss}
-                        onChange={handleOptionChange}
+
+                        onChange={(event) => { setLoss(event.target.value); }}
                         className=" bg-gray-200 text-gray-900 text-sm rounded-3xl w-full p-3 ">
                         <option selected>Select the type of prestress loss</option>
                         <option value="es">Elastic</option>

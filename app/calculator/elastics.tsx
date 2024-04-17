@@ -53,19 +53,19 @@ function Elastics() {
                             className=" bg-slate-200 rounded-3xl m-8 p-2"
                             type="number"
                             // value={es}
-                            onChange={(e) => { setEs(e.target.value) }}
+                            onChange={(e) => { setEs(Number(e.target.value)) }}
                             placeholder="Enter the value of modulus of elasticity of steel in Pa" ></input>
                         <input
                             className=" bg-slate-200 rounded-3xl m-8 p-2"
                             type="number"
                             // value={ec}
-                            onChange={(e) => { setEc(e.target.value) }}
+                            onChange={(e) => { setEc(Number(e.target.value)) }}
                             placeholder="Enter the value of modulus of elasticity of concrete in Pa"></input>
                         <input
                             className=" bg-slate-200 rounded-3xl m-8 p-2"
                             type="number"
                             // value={fc}
-                            onChange={(e) => { setFc(e.target.value) }}
+                            onChange={(e) => { setFc(Number(e.target.value)) }}
                             placeholder="Enter the value of prestress in concrete at the level of steel"></input>
                     </div>
                     <button onClick={calculate} className=" bg-zinc-500 rounded-3xl p-2 font-normal text-white">Calculate Loss</button>

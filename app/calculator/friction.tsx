@@ -9,7 +9,7 @@ function Friction() {
     const [x, setX] = useState(1);
     const [po, setPo] = useState(1);
 
-    const [ans, setAns] = useState();
+    const [ans, setAns] = useState(0);
 
     const calculate = () => {
         setAns(po * ((u * a) + (k * x)));
@@ -28,31 +28,31 @@ function Friction() {
                     className=" bg-slate-200 rounded-3xl m-8 p-2"
                     type="number"
                     // value={es}
-                    onChange={(e) => { setPo(e.target.value) }}
+                    onChange={(e) => { setPo(Number(e.target.value)) }}
                     placeholder="Enter the value of prestress in force (Po)" ></input>
                 <input
                     className=" bg-slate-200 rounded-3xl m-8 p-2"
                     type="number"
                     // value={ec}
-                    onChange={(e) => { setU(e.target.value) }}
+                    onChange={(e) => { setU(Number(e.target.value)) }}
                     placeholder="Enter the value of coefficient of friction (u)"></input>
                 <input
                     className=" bg-slate-200 rounded-3xl m-8 p-2"
                     type="number"
                     // value={fc}
-                    onChange={(e) => { setA(e.target.value) }}
+                    onChange={(e) => { setA(Number(e.target.value)) }}
                     placeholder="Enter the value of cumulative angel in radian (a)"></input>
                 <input
                     className=" bg-slate-200 rounded-3xl m-8 p-2"
                     type="number"
                     // value={fc}
-                    onChange={(e) => { setK(e.target.value) }}
+                    onChange={(e) => { setK(Number(e.target.value)) }}
                     placeholder="Enter the value of friction coefficient for wave effect (k)"></input>
                 <input
                     className=" bg-slate-200 rounded-3xl m-8 p-2"
                     type="number"
                     // value={fc}
-                    onChange={(e) => { setX(e.target.value) }}
+                    onChange={(e) => { setX(Number(e.target.value)) }}
                     placeholder="Enter the value of distance in meters (x)"></input>
             </div>
             <button onClick={calculate} className=" bg-zinc-500 rounded-3xl p-4 font-semibold text-white">Calculate Loss</button>

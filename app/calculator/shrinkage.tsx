@@ -35,7 +35,7 @@ function Shrinkage() {
                             <div className="p-4">Shrinkage Loss = Ecs X Es</div>
                             <div> Ecs = 3*10^-4</div>
                         </div>)
-                        setType(e.target.value);
+                        setType(Number(e.target.value));
                     } else {
                         setFormula(
                             <div>
@@ -44,7 +44,7 @@ function Shrinkage() {
                                 <div>Ecs = (2*10^-4)/(log(T+2))</div>
                             </div>
                         );
-                        setType(e.target.value);
+                        setType(Number(e.target.value));
                     }
                 }}
             >
@@ -63,7 +63,7 @@ function Shrinkage() {
                     className=" bg-slate-200 rounded-3xl m-8 p-2"
                     type="number"
                     // value={es}
-                    onChange={(e) => { setEs(e.target.value) }}
+                    onChange={(e) => { setEs(Number(e.target.value)) }}
                     placeholder="Enter the value of modulus of elasticity of steel in Mpa" ></input>
 
                 {(type === "pre" ? <></> : <>
@@ -71,7 +71,7 @@ function Shrinkage() {
                         className=" bg-slate-200 rounded-3xl m-8 p-2"
                         type="number"
                         // value={ec}
-                        onChange={(e) => { setT(e.target.value) }}
+                        onChange={(e) => { setT(Number(e.target.value)) }}
                         placeholder="Enter the age of Concrete in Days (T)"></input>
                 </>)}
 

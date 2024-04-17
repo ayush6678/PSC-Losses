@@ -97,12 +97,16 @@ function Creep() {
 
                         <Image
                             className=" m-8"
+                            alt="none"
+
                             src={i2.src}
                             width={300}
                             height={300}
                         />
                         <Image
                             className=" m-8"
+                            alt="none"
+
                             src={i3.src}
                             width={500}
                             height={500}

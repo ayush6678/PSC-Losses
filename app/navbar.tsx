@@ -33,6 +33,7 @@ function Navbar() {
             <h1 className="">
                 <Link href={"/"}>
                     <Image
+                    alt="none"
                         src={logo}
                         width={100}
                         height={100}

@@ -56,7 +56,7 @@ function Anchorage() {
                     <div>
                         <h1 id="2" className=" font-semibold text-xl ml-0 m-8">Occurence</h1>
                         <div>
-                            Anchorage slip happens due to factors such as friction between the tendon and the anchorage, deformation of the tendon, and concrete creep. These factors collectively contribute to the displacement or slipping of the tendon within the anchorage zone. Despite the anchorage devices' design to securely grip the tendon, some degree of slip may still occur over time. This slip occurs gradually and can lead to a reduction in the prestress force carried by the tendon, impacting the efficiency and effectiveness of the prestressed concrete member.
+                            Anchorage slip happens due to factors such as friction between the tendon and the anchorage, deformation of the tendon, and concrete creep. These factors collectively contribute to the displacement or slipping of the tendon within the anchorage zone. Despite the anchorage devices design to securely grip the tendon, some degree of slip may still occur over time. This slip occurs gradually and can lead to a reduction in the prestress force carried by the tendon, impacting the efficiency and effectiveness of the prestressed concrete member.
                         </div>
                     </div>
 
@@ -83,6 +83,7 @@ function Anchorage() {
                             Es= Young’s modulus of steel (N/mm2)<br />
                             <br />
                             <Image
+                                alt="none"
                                 className=" m-8 p-10"
                                 src={i1.src}
                                 width={800}

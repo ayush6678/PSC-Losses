@@ -85,7 +85,7 @@ function Shrinkage() {
                             Occurs during the initial curing process, typically  within the first few days or weeks after concrete  placement.<br />
                             <br />
                             LONG-TERM SHRINKAGE:<br />
-                            Long-term Shrinkage Continues over the lifespan of the structure,  influenced by environmental factors and the  concrete's internal changes.<br />
+                            Long-term Shrinkage Continues over the lifespan of the structure,  influenced by environmental factors and the  concrete internal changes.<br />
                         </div>
                     </div>
                     <div>
@@ -94,7 +94,7 @@ function Shrinkage() {
                             There is contraction due to drying of concrete and shrinkage strain occurs in concrete. Shrinkage strain causes the steel to lose its stretch, resulting in the loss of prestress.<br />
                             Loss of stretch = shrinkage strain (esh).<br />
                             Therefore, loss in prestress(fs) = Es X esh, esh = 0.0003 for pre-tensioned elements, and<br />
-                            esh = 0.002/log 10 (t + 2) for post-tensioned beams. Where 't' is the age of concrete.<br />
+                            esh = 0.002/log 10 (t + 2) for post-tensioned beams. Where t is the age of concrete.<br />
 
                         </div>
                     </div>

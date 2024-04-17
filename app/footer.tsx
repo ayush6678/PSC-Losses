@@ -5,11 +5,12 @@ function Footer() {
         <div>
             <div className=" p-32 bg-white flex align-middle items-center ">
                 <Image
+                    alt="none"
                     src={logo}
                     width={300}
                     height={300}
                 />
-                <div className=" ml-16 align-middle"> 
+                <div className=" ml-16 align-middle">
                     <div className=" font-bold text-xl">Team:</div>
 
                     <div className=" flex gap-8 font-medium ">

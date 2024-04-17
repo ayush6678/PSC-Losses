@@ -82,12 +82,16 @@ function Friction() {
                             distance x from the tensioning end follows an exponential function of the type:
                             <br />
                             <Image
+                                alt="none"
+
                                 className=" m-8 pl-58"
                                 src={i1.src}
                                 width={500}
                                 height={500}
                             />
                             <Image
+                                alt="none"
+
                                 className=" m-8"
                                 src={i2.src}
                                 width={500}

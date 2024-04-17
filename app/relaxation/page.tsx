@@ -138,6 +138,8 @@ function Relaxation() {
                             Intrinsic relaxation in prestressed concrete refers to the gradual decrease in stress within the steel reinforcement over time, even without external loading. This phenomenon is important to consider in design and maintenance to ensure the long-term performance and safety of structures.
 
                             <Image
+                                alt="none"
+
                                 className=" m-8"
                                 src={i1.src}
                                 width={300}
@@ -154,18 +156,23 @@ function Relaxation() {
                             Reduced relaxation refers to minimizing the gradual decrease in stress within the steel reinforcement over time in prestressed concrete, which helps maintain the structure's long-term performance and safety.
 
                             <Image
+                                alt="none"
+
                                 className=" m-8"
                                 src={i2.src}
                                 width={300}
                                 height={300}
                             />
                             <Image
+                                alt="none"
+
                                 className=" m-8"
                                 src={i3.src}
                                 width={500}
                                 height={500}
                             />
                             <Image
+                                alt="none"
                                 className=" m-8"
                                 src={i4.src}
                                 width={700}

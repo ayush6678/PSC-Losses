@@ -26,7 +26,7 @@ function Anchorage() {
                             <h1 className="p-2 text-xl">In Pre-Tensioning</h1>
                             <div className="p-4">Loss in prestress due to anchorage slip is more in short members than long.</div>
                         </div>)
-                        setType(Number(e.target.value));
+                        setType(String(e.target.value));
                     } else {
                         setFormula(
                             <div>
@@ -36,7 +36,7 @@ function Anchorage() {
 
                             </div>
                         );
-                        setType(Number(e.target.value));
+                        setType(String(e.target.value));
                     }
                 }}
             >
@@ -55,13 +55,13 @@ function Anchorage() {
                             className=" bg-slate-200 rounded-3xl m-8 p-2"
                             type="number"
                             // value={fc}
-                            onChange={(e) => { setA(Number(Number(e.target.value))) }}
+                            onChange={(e) => { setA(Number(e.target.value)) }}
                             placeholder="Enter the value of cross-sectional area"></input>
                             <input
                             className=" bg-slate-200 rounded-3xl m-8 p-2"
                             type="number"
                             // value={fc}
-                            onChange={(e) => { setP(Number(Number(e.target.value))) }}
+                            onChange={(e) => { setP(Number(e.target.value)) }}
                             placeholder="Enter the value of prestressing force"></input>
                     </div>
                     <button onClick={calculate} className=" bg-zinc-500 rounded-3xl p-2 font-normal text-white">Calculate Loss</button>

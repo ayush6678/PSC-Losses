@@ -7,7 +7,7 @@ function Anchorage() {
     const [a, setA] = useState(1);
     const [type, setType] = useState("");
     const [formula, setFormula] = useState(<></>);
-    const [ans, setAns] = useState();
+    const [ans, setAns] = useState(0);
 
     const calculate = () => {
         setAns(p/a);

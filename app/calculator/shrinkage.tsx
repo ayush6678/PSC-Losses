@@ -7,7 +7,7 @@ function Shrinkage() {
     const [T, setT] = useState(1);
     const [type, setType] = useState("");
     const [formula, setFormula] = useState(<></>);
-    const [ans, setAns] = useState();
+    const [ans, setAns] = useState(0);
 
     const calculate = () => {
         if (type === "pre") {

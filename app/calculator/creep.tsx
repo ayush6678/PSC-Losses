@@ -6,7 +6,7 @@ function Creep() {
     const [es, setEs] = useState(1);
     const [ecc, setEcc] = useState(1);
     const [fc, setFc] = useState(1);
-    const [ans, setAns] = useState();
+    const [ans, setAns] = useState(0);
 
     const calculate = () => {
         setAns(es * ecc * fc);

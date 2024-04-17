@@ -1,8 +1,6 @@
 import Navbar from "../navbar";
-import i1 from "../intrinsicR.png";
-import i2 from "../reducedR1.png";
-import i3 from "../reducde.png";
-import i4 from "../reducedR3.png";
+import i1 from "../image10.png";
+import i2 from "../image11.png";
 import Image from "next/image";
 import Footer from "../footer";
 import Link from "next/link";
@@ -29,151 +27,80 @@ function Friction() {
                                 </Link></li>
                             <li>
                                 <Link href="#3">
-                                    Time-Dependent Behavior
+                                    Loss of stress due to the curvature<br />effect,
 
                                 </Link></li>
                             <li>
                                 <Link href="#4">
-                                    Factors Influencing Relaxation
+                                    Loss of stress due to the wobble<br />effect,
 
                                 </Link></li>
-                            <li>
-                                <Link href="#5">
-                                    Measurement and Prediction
 
-                                </Link></li>
-                            <li>
-                                <Link href="#6">
-                                    Mitigation Strategies
-                                </Link>
-                            </li>
-
-                            <li>
-                                <Link href="#7">
-                                    Intrinsic Relaxation
-                                </Link>
-                            </li>
-
-                            <li>
-                                <Link href="#8">
-                                    Reduced Relaxation:
-                                </Link>
-                            </li>
                         </ul>
                     </div>
                 </div>
                 <div className="col-span-3 pr-16">
 
-                    <h1 className="pt-32 p-16 font-bold text-2xl text-center">
-                        Friction in steel in Prestressed concrete
+                    <h1 className="pt-32 p-25 font-bold text-2xl text-center">
+                        Loss of prestress due to friction
                     </h1>
 
                     <div>
                         <h1 id="1" className=" font-semibold text-xl ml-0 m-8">Introduction</h1>
 
                         <div>
-                            Relaxation of steel, also known as stress relaxation or relaxation loss, is a phenomenon where the stress in a steel member gradually decreases over time when subjected to constant strain or elongation. In the context of prestressed concrete, relaxation of steel tendons is a significant factor affecting the long-term performance and behavior of prestressed concrete structures.
+                            In the case of post-tensioned members, the tendons are housed in ducts
+                            pre-formed in concrete. The ducts are either straight or follow a curved profile
+                            depending upon the design requirements. Consequently, on tensioning the
+                            curved tendons, loss of stress occurs in the post-tensioned members due
+                            to friction between the tendons and the surrounding concrete ducts. The
+                            magnitude of this loss is of the following types:
+
                         </div>
                     </div>
 
                     <div>
-                        <h1 id="2" className=" font-semibold text-xl ml-0 m-8">Mechanism</h1>
+                        <h1 id="2" className=" font-semibold text-xl ml-0 m-8">Loss of stress due to the curvature effect</h1>
                         <div>
-                            Relaxation of steel is primarily attributed to the rearrangement of atomic structures within the steel material. When steel is initially tensioned to apply prestress force, the atomic structure undergoes changes to accommodate the applied load. Over time, these internal rearrangements lead to a gradual decrease in stress within the steel, resulting in relaxation loss.
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <h1 id="3" className=" font-semibold text-xl ml-0 m-8">Time-Dependent Behavior</h1>
-                        <div>
-                            Relaxation of steel is a time-dependent phenomenon, meaning that the rate of stress relaxation varies with time. Initially, the relaxation rate is relatively high, especially during the early stages after tensioning. However, as time progresses, the rate of relaxation decreases, and the remaining prestress force stabilizes.                    </div>
-                    </div>
-
-
-                    <div>
-                        <h1 id="4" className=" font-semibold text-xl ml-0 m-8">
-                            Factors Influencing Relaxation
-                        </h1>
-                        <div>
-                            Several factors influence the relaxation behavior of steel in prestressed concrete:
-                            <h2 className="font-semibold p-2 pl-0">Steel Grade: </h2>The relaxation characteristics vary depending on the grade of steel used for the prestressing tendons. Higher-grade steels generally exhibit lower relaxation rates compared to lower-grade steels.
-
-                            <h2 className="font-semibold p-2 pl-0"> Initial Stress Level:</h2> The magnitude of initial prestress force applied to the tendons affects the rate of relaxation. Higher initial stress levels result in slower relaxation rates.
-                            <h2 className="font-semibold p-2 pl-0">Temperature and Environment:</h2> Environmental factors, such as temperature and humidity, can influence the relaxation behavior of steel. Elevated temperatures typically accelerate relaxation, while low temperatures may reduce relaxation rates.
-
-                            <h2 className="font-semibold p-2 pl-0"> Steel Composition and Microstructure:</h2> The composition and microstructure of the steel material also play a role in relaxation behavior. Alloying elements and heat treatment processes can affect the relaxation characteristics of steel.
+                            which depends upon the tendon
+                            form or alignment which generally follows a curved profile along the length of the beam.
 
                         </div>
                     </div>
 
 
                     <div>
-                        <h1 id="5" className=" font-semibold text-xl ml-0 m-8">
-                            Measurement and Prediction
-                        </h1>
+                        <h1 id="3" className=" font-semibold text-xl ml-0 m-8"> Loss of stress due to the wobble effect</h1>
                         <div>
-                            Engineers employ empirical models and testing methods to measure and predict the relaxation behavior of prestressing steel. These include relaxation tests conducted on specimens to determine relaxation properties under controlled conditions. Additionally, mathematical models based on empirical data are used to estimate relaxation losses in prestressed concrete structures during the design phase.
-                        </div>
-                    </div>
-
-
-                    <div>
-                        <h1 id="6" className=" font-semibold text-xl ml-0 m-8">
-                            Mitigation Strategies
-                        </h1>
-                        <div>
-                            To mitigate the effects of relaxation in prestressed concrete structures, engineers typically account for relaxation losses during the design phase by incorporating safety factors or adjusting design parameters. Additionally, periodic monitoring and assessment of prestress force in existing structures can help identify potential relaxation-induced issues and inform maintenance or rehabilitation efforts.
-
-                            Overall, relaxation of steel is a complex phenomenon that requires careful consideration in the design, construction, and maintenance of prestressed concrete structures. By understanding the factors influencing relaxation behavior and implementing appropriate mitigation strategies, engineers can ensure the long-term performance and safety of these structures.
-
-                        </div>
-                    </div>
-
-                    <div>
-                        <h1 id="7" className=" font-semibold text-xl ml-0 m-8">
-                            Intrinsic Relaxation
-                        </h1>
-                        <div className=" flex flex-col justify-center items-center ">
-                            Intrinsic relaxation in prestressed concrete refers to the gradual decrease in stress within the steel reinforcement over time, even without external loading. This phenomenon is important to consider in design and maintenance to ensure the long-term performance and safety of structures.
-
+                            which depends upon the local
+                            deviations in the alignment of the cable. The wobble or wave effect is the
+                            result of accidental or unavoidable misalignment, since ducts or sheath
+                            cannot be perfectly located to follow a predetermined profile throughout
+                            the length of the beam.<br />
+                            <br />
+                            Referring to fig. given, the magnitude of the prestressing force, Px, at a
+                            distance x from the tensioning end follows an exponential function of the type:
+                            <br />
                             <Image
-                                className=" m-8"
+                                className=" m-8 pl-58"
                                 src={i1.src}
-                                width={300}
-                                height={300}
-                            />
-                        </div>
-                    </div>
-
-                    <div>
-                        <h1 id="8" className=" font-semibold text-xl ml-0 m-8">
-                            Reduced Relaxation:
-                        </h1>
-                        <div className=" flex flex-col justify-center items-center ">
-                            Reduced relaxation refers to minimizing the gradual decrease in stress within the steel reinforcement over time in prestressed concrete, which helps maintain the structure's long-term performance and safety.
-
-                            <Image
-                                className=" m-8"
-                                src={i2.src}
-                                width={300}
-                                height={300}
-                            />
-                            <Image
-                                className=" m-8"
-                                src={i3.src}
                                 width={500}
                                 height={500}
                             />
                             <Image
                                 className=" m-8"
-                                src={i4.src}
-                                width={700}
-                                height={700}
+                                src={i2.src}
+                                width={500}
+                                height={300}
                             />
                         </div>
-                    </div>
+                        <Link href={"/calculator"}>
+                            <button style={{ marginLeft: "30vw" }} className=" m-16 bg-orange-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mx-auto">
+                                Calculate Loss
+                            </button>
+                        </Link>
 
+                    </div>
                 </div>
             </div>
 

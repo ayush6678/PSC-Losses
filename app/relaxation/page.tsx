@@ -172,6 +172,12 @@ function Relaxation() {
                                 height={700}
                             />
                         </div>
+                        <Link href={"/calculator"}>
+                            <button style={{ marginLeft: "30vw" }} className=" m-16 bg-orange-400 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mx-auto">
+                                Calculate Loss
+                            </button>
+                        </Link>
+
                     </div>
 
                 </div>

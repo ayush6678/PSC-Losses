@@ -80,16 +80,8 @@ function Navbar() {
                         </ul>
                     }
 
-
-
                 </div>
 
-                <div>
-                    About
-                </div>
-                <div>
-                    Team
-                </div>
                 <div>
                     <Link href={"/calculator"}>
                         <button className=" bg-orange-400 px-2 text-white rounded-xl ">

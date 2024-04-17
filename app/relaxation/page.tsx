@@ -153,7 +153,7 @@ function Relaxation() {
                             Reduced Relaxation:
                         </h1>
                         <div className=" flex flex-col justify-center items-center ">
-                            Reduced relaxation refers to minimizing the gradual decrease in stress within the steel reinforcement over time in prestressed concrete, which helps maintain the structure's long-term performance and safety.
+                            Reduced relaxation refers to minimizing the gradual decrease in stress within the steel reinforcement over time in prestressed concrete, which helps maintain the structure long-term performance and safety.
 
                             <Image
                                 alt="none"

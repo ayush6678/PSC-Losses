@@ -35,7 +35,7 @@ function Shrinkage() {
                             <div className="p-4">Shrinkage Loss = Ecs X Es</div>
                             <div> Ecs = 3*10^-4</div>
                         </div>)
-                        setType(Number(e.target.value));
+                        setType(String(e.target.value));
                     } else {
                         setFormula(
                             <div>
@@ -44,7 +44,7 @@ function Shrinkage() {
                                 <div>Ecs = (2*10^-4)/(log(T+2))</div>
                             </div>
                         );
-                        setType(Number(e.target.value));
+                        setType(String(e.target.value));
                     }
                 }}
             >
